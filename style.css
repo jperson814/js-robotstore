@@ -1,24 +1,22 @@
-@ import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-@primary-color:#E70909;
-@accent-color:#422C2C;
-@forground-color:#F8F3F3;
-@background-color:#CBC6C6;
-@primary-color:#422C2C;
-@font-color:black;
-@font-family:comic sans;
+body {
+background-color:#CBC6C6;
+font-color:black;
+font-family:comic sans;
+border:none;
+}
 .headerlogo {
-  justify-content: flex-start;
+  position: top;
   margin-right: 10px;
 }
 #headername {
 font-weight: bold;
 margin-left: 10px;
 margin-right: 10px;
-justify-content: center;
+position: top;
 }
 .searchbox {
   margin-left: 10px;
-  justify-content: flex-end;
+  justify-content: top;
 }
 nav {
     height: 45px;
@@ -29,33 +27,26 @@ nav {
     font-weight: bold;
     text-align: center;
     display:inline-block;
-    
-    ul {
-          list-style-type: none;
-          padding: 0px;
-          display: block;
-          border-right: 1px solid #bbb;
 
-          li  {
-                display: block;
-                border-right: 1px solid #bbb;
+ul  {
+    list-style-type: none;
+    padding: 0px;
+    display: block;
+    border-right: 1px solid #bbb;
+}
+li  {
+  display: block;
+  border-right: 1px solid #bbb;
               }
-          li:last-child {
+li:last-child {
                 border-right: none;
               }
-        }
-}
-body {
-  background-color: @background-color;
-  font-color: @font-color;
-  border: none;
-}
-#welcometext{
-span {
+.paragraph {
     line-height: 1.2 em;
     column-count: 2;
 }
-}
 footer {
-  column-count: 3
+  column-count: 3;
+  background-color:Black;
+  font-color:White;
 }
