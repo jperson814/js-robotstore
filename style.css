@@ -6,6 +6,7 @@ border:none;
 }
 .headerlogo {
   position: top;
+  float: left;
   margin-right: 10px;
 }
 #headername {
@@ -16,7 +17,7 @@ position: top;
 }
 .searchbox {
   margin-left: 10px;
-  justify-content: top;
+  position: top;
 }
 nav {
     height: 45px;
